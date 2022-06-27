@@ -1,0 +1,15 @@
+C:\Code\GrandCircus\CSharpBootcamp_June2022_AH\UnitTwo\Types\Types\bin\Debug\net6.0\Types.exe
+C:\Code\GrandCircus\CSharpBootcamp_June2022_AH\UnitTwo\Types\Types\bin\Debug\net6.0\Types.deps.json
+C:\Code\GrandCircus\CSharpBootcamp_June2022_AH\UnitTwo\Types\Types\bin\Debug\net6.0\Types.runtimeconfig.json
+C:\Code\GrandCircus\CSharpBootcamp_June2022_AH\UnitTwo\Types\Types\bin\Debug\net6.0\Types.dll
+C:\Code\GrandCircus\CSharpBootcamp_June2022_AH\UnitTwo\Types\Types\bin\Debug\net6.0\Types.pdb
+C:\Code\GrandCircus\CSharpBootcamp_June2022_AH\UnitTwo\Types\Types\obj\Debug\net6.0\Types.csproj.AssemblyReference.cache
+C:\Code\GrandCircus\CSharpBootcamp_June2022_AH\UnitTwo\Types\Types\obj\Debug\net6.0\Types.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\GrandCircus\CSharpBootcamp_June2022_AH\UnitTwo\Types\Types\obj\Debug\net6.0\Types.AssemblyInfoInputs.cache
+C:\Code\GrandCircus\CSharpBootcamp_June2022_AH\UnitTwo\Types\Types\obj\Debug\net6.0\Types.AssemblyInfo.cs
+C:\Code\GrandCircus\CSharpBootcamp_June2022_AH\UnitTwo\Types\Types\obj\Debug\net6.0\Types.csproj.CoreCompileInputs.cache
+C:\Code\GrandCircus\CSharpBootcamp_June2022_AH\UnitTwo\Types\Types\obj\Debug\net6.0\Types.dll
+C:\Code\GrandCircus\CSharpBootcamp_June2022_AH\UnitTwo\Types\Types\obj\Debug\net6.0\refint\Types.dll
+C:\Code\GrandCircus\CSharpBootcamp_June2022_AH\UnitTwo\Types\Types\obj\Debug\net6.0\Types.pdb
+C:\Code\GrandCircus\CSharpBootcamp_June2022_AH\UnitTwo\Types\Types\obj\Debug\net6.0\Types.genruntimeconfig.cache
+C:\Code\GrandCircus\CSharpBootcamp_June2022_AH\UnitTwo\Types\Types\obj\Debug\net6.0\ref\Types.dll
