@@ -59,12 +59,70 @@
 //Console.WriteLine("You have traveled " + distanceTraveled + " miles.");
 
 //do while loop
-int channelsWatched = 0;
-int boredomLevel = 5;
-do
+//int channelsWatched = 0;
+//int boredomLevel = 5;
+//do
+//{
+//    channelsWatched++;
+//    Console.WriteLine(channelsWatched);
+//    boredomLevel--;
+//}
+//while (boredomLevel > 0);
+
+//for loop
+//for (int i = 0; i < 5; i++)
+//{
+//    Console.WriteLine("Hello World");
+//}
+
+//for (int i = 10; i > 0; i--)
+//{
+//    Console.WriteLine(i);
+//}
+
+//foreach loop
+//List<int> listOfInts = new List<int>() { 1, 2, 3 };
+//foreach (int num in listOfInts)
+//{
+//    Console.WriteLine(num + 1);
+//}
+
+//nested loops
+//for (int i = 0; i < 3; i++)
+//{
+//    Console.WriteLine("First loop variable = " + i);
+//    for (int j = 0; j < 4; j++)
+//    {
+//        Console.WriteLine("Second loop variable = " + j);
+//    }
+//}
+
+//break statement example
+//for (int i = 0; i < 3; i++)
+//{
+//    Console.WriteLine("First loop variable = " + i);
+//    if (i == 1)
+//    {
+//        break;
+//    }
+
+//    for (int j = 0; j < 4; j++)
+//    {
+//        Console.WriteLine("Second loop variable = " + j);
+//        if (j == 2)
+//        {
+//            break;
+//        }
+//    }
+//}
+
+//continue statement example
+for (int i = 0; i < 3; i++)
 {
-    channelsWatched++;
-    Console.WriteLine(channelsWatched);
-    boredomLevel--;
+    Console.WriteLine("First loop variable = " + i);
+    for (int j = 0; j < 4; j++)
+    {
+        if (j == 2) continue;
+        Console.WriteLine("Second loop variable = " + j);
+    }
 }
-while (boredomLevel > 0);
