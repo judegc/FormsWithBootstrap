@@ -10,12 +10,12 @@ titles[2] = "Groundhog Day";
 
 
 int index = 3;
-int[] intArray = { 77, 88, 99, 111 }; //declare, instantiate, and assign values
+int[] intArray = { 111, 88, 99, 77}; //declare, instantiate, and assign values
 //Console.WriteLine(intArray[index]);
 intArray[index] = 999;
 //Console.WriteLine(intArray[index]);
 
-intArray = new int[4] { 22, 33, 44, 55 }; //to reassign all values to an array variable, we need to create a new array
+intArray = new int[4] { 22, 99, 44, 11 }; //to reassign all values to an array variable, we need to create a new array
 
 
 //LOOPING THROUGH ARRAYS
@@ -43,9 +43,76 @@ decimal sum = 0;
 //    Console.WriteLine(num);
 //}
 
-for (int i = 0; i < intArray.Length; i++)
-{
-    Console.WriteLine(intArray[i]);
-    intArray[i]++;
-    Console.WriteLine(intArray[i]);
-}
+//for (int i = 0; i < intArray.Length; i++)
+//{
+//    Console.WriteLine(intArray[i]);
+//    intArray[i]++;
+//    Console.WriteLine(intArray[i]);
+//}
+
+//int[] intArrayTwo = intArray;
+//int[] intArrayThree = new int[4];
+//intArray.CopyTo(intArrayThree, 0);
+//Array.Sort(intArray);
+
+//foreach (int i in intArray)
+//{
+//    Console.WriteLine("intArray " + i);
+//}
+
+//foreach (int i in intArrayTwo)
+//{
+//    Console.WriteLine("intArrayTwo " + i);
+//}
+
+//foreach (int i in intArrayThree)
+//{
+//    Console.WriteLine("intArrayThree " + i);
+//}
+
+
+//2D Arrays
+//int[,] twoDArray = new int[2, 3]
+//{
+//    { 11, 12, 13 },
+//    { 21, 22, 23 },
+//};
+
+
+//for (int i = 0; i < 2; i++)
+//{
+//    for (int j = 0; j < 3; j++)
+//    {
+//        Console.Write(twoDArray[i, j] + " ");
+//    }
+//    Console.WriteLine();
+//}
+
+//char[,] ticTacToeBoard = new char[3, 3]
+//{
+//    { '_', '_', '_' },
+//    { '_', '_', '_' },
+//    { '_', '_', '_' },
+//};
+
+//for (int i = 0; i < 3; i++)
+//{
+//    for (int j = 0; j < 3; j++)
+//    {
+//        Console.Write(ticTacToeBoard[i, j] + " ");
+//    }
+//    Console.WriteLine();
+//}
+
+//ticTacToeBoard[0, 0] = 'X';
+//ticTacToeBoard[1, 1] = 'O';
+//ticTacToeBoard[2, 0] = 'X';
+
+//for (int i = 0; i < 3; i++)
+//{
+//    for (int j = 0; j < 3; j++)
+//    {
+//        Console.Write(ticTacToeBoard[i, j] + " ");
+//    }
+//    Console.WriteLine();
+//}
