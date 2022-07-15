@@ -5,7 +5,9 @@ VisualStudioVersion = 17.2.32516.85
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays", "Arrays\Arrays.csproj", "{168EA8AB-2F79-4592-98B6-FEF15437F48F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections", "Collections\Collections.csproj", "{8571EF8B-D7CB-4673-9B76-3CF223CE7854}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collections", "Collections\Collections.csproj", "{8571EF8B-D7CB-4673-9B76-3CF223CE7854}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exceptions", "Exceptions\Exceptions.csproj", "{E118C59E-9786-4D84-941E-7FA34AE6DB5A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{8571EF8B-D7CB-4673-9B76-3CF223CE7854}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8571EF8B-D7CB-4673-9B76-3CF223CE7854}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8571EF8B-D7CB-4673-9B76-3CF223CE7854}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E118C59E-9786-4D84-941E-7FA34AE6DB5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E118C59E-9786-4D84-941E-7FA34AE6DB5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E118C59E-9786-4D84-941E-7FA34AE6DB5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E118C59E-9786-4D84-941E-7FA34AE6DB5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
