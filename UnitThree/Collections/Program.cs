@@ -99,3 +99,47 @@ Dictionary<int, string> partsCatalog = new Dictionary<int, string>()
 //{
 //    Console.WriteLine(kvp);
 //}
+
+
+
+//STACK (Last-in-first-out)
+Stack<int> numberStack = new Stack<int>();
+numberStack.Push(1); //.Push() adds elements one by one
+numberStack.Push(2);
+numberStack.Push(3);
+numberStack.Push(4);
+numberStack.Push(5);
+
+//foreach (int i in numberStack)
+//{
+//    Console.WriteLine(i);
+//}
+
+//Console.WriteLine(numberStack.Pop()); //.Pop() removes and returns the top element in the stack
+
+//Console.WriteLine(numberStack.Peek()); //.Peek() returns but DOES NOT REMOVE the top element
+
+//Console.WriteLine(numberStack.Contains(4));
+
+//Console.WriteLine(numberStack.Count());
+
+
+//QUEUE (First-in-first-out)
+Queue<string> names = new Queue<string>();
+names.Enqueue("Tolu");
+names.Enqueue("Jude");
+names.Enqueue("Kevin");
+names.Enqueue("Collin");
+
+//foreach (string name in names)
+//{
+//    Console.WriteLine(name);
+//}
+
+Console.WriteLine(names.Dequeue()); //.Dequeue() removes and returns the first element in the queue
+
+Console.WriteLine(names.Peek());
+
+Console.WriteLine(names.Contains("Jude"));
+
+Console.WriteLine(names.Count);
