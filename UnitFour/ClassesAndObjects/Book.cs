@@ -15,6 +15,9 @@ namespace ClassesAndObjects
         public string Genre;
 
         //methods
+        /// <summary>
+        /// Prints all details of the book to the console.
+        /// </summary>
         public void printBookDetails()
         {
             Console.WriteLine(String.Format("{0, -15} {1, -15}", "Title:", Title));
