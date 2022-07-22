@@ -1,12 +1,8 @@
 ﻿using ClassesAndObjects;
 
-Author authorOne = new Author()
-{
-    FirstName = "Aldous",
-    LastName = "Huxley",
-    Age = 55,
-    Bio = "A. Huxley grew up in......"
-};
+Author authorOne = new Author("Aldous", "Huxley", -8765, "xyz");
+
+Console.WriteLine(authorOne.Age);
 
 Book bookOne = new Book()
 {
@@ -30,14 +26,16 @@ bookThree.Author = authorOne;
 bookThree.Isbn = 1122334455;
 bookThree.Genre = "Historical Fiction";
 
-List<Book> bookList = new List<Book>() { bookOne, bookTwo, bookThree };
+Book bookFour = new Book("Atomic Habits", authorOne, 2147483647, "Self-help");
 
-//foreach(Book book in bookList)
-//{
-//    Console.WriteLine(book.Title + " by " + book.Author.FirstName + " " + book.Author.LastName);
-//}
+List<Book> bookList = new List<Book>() { bookOne, bookTwo, bookThree, bookFour };
 
-foreach(Book book in bookList)
+foreach (Book book in bookList)
 {
-    book.printBookDetails();
+    Console.WriteLine(book.Title + " by " + book.Author.FirstName + " " + book.Author.LastName);
 }
+
+//foreach (Book book in bookList)
+//{
+//    book.printBookDetails();
+//}

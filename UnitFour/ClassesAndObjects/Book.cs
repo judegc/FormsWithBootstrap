@@ -8,11 +8,22 @@ namespace ClassesAndObjects
 {
     public class Book
     {
+        //constructor(s)
+        public Book(string argTitle, Author argAuthor, int argIsbn, string argGenre)
+        {
+            Title = argTitle;
+            Author = argAuthor;
+            Isbn = argIsbn;
+            Genre = argGenre;
+        }
+
+        public Book() { } //empty constructor
+
         //properties
-        public string Title;
-        public Author Author;
-        public int Isbn;
-        public string Genre;
+        public string Title { get; set; }
+        public Author Author { get; set; }
+        public int Isbn { get; set; }
+        public string Genre { get; set; }
 
         //methods
         /// <summary>
