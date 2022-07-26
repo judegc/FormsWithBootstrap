@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ClassesAndObjects.Enums;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,7 +10,7 @@ namespace ClassesAndObjects
     public class Book
     {
         //constructor(s)
-        public Book(string argTitle, Author argAuthor, int argIsbn, string argGenre)
+        public Book(string argTitle, Author argAuthor, int argIsbn, BookGenre argGenre)
         {
             Title = argTitle;
             Author = argAuthor;
@@ -23,13 +24,13 @@ namespace ClassesAndObjects
         public string Title { get; set; }
         public Author Author { get; set; }
         public int Isbn { get; set; }
-        public string Genre { get; set; }
+        public BookGenre Genre { get; set; }
 
         //methods
         /// <summary>
         /// Prints all details of the book to the console.
         /// </summary>
-        public void printBookDetails()
+        public void PrintBookDetails()
         {
             Console.WriteLine(String.Format("{0, -15} {1, -15}", "Title:", Title));
             Console.WriteLine(String.Format("{0, -15} {1, -15}", "Author:", Author.FirstName + " " + Author.LastName));
