@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AbstractClassesAndInterfaces
 {
-    public class SUV : Vehicle
+    public class SUV : Vehicle, IHatch //SUV INHERITS from Vehicle and IMPLEMENTS IHatch
     {
         //constructor
         public SUV(string make, string model, int numOfSeats)
@@ -23,11 +23,11 @@ namespace AbstractClassesAndInterfaces
         //methods
         public void OpenHatch()
         {
-            if (HatchIsOpen) Console.WriteLine("Hatch is already open");
+            if (HatchIsOpen) Console.WriteLine("SUV hatch is already open");
             else
             {
                 HatchIsOpen = true;
-                Console.WriteLine("Hatch opened");
+                Console.WriteLine("SUV hatch opened");
             }
         }
 

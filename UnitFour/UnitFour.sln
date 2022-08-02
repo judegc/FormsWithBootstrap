@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassesAndObjects", "Classe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractClassesAndInterfaces", "AbstractClassesAndInterfaces\AbstractClassesAndInterfaces.csproj", "{9896677C-A328-4487-9F63-9A1BA9591D85}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieDatabaseLab", "MovieDatabaseLab\MovieDatabaseLab.csproj", "{7F864168-A7E5-4A2A-B7F4-4A87F4F69572}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{9896677C-A328-4487-9F63-9A1BA9591D85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9896677C-A328-4487-9F63-9A1BA9591D85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9896677C-A328-4487-9F63-9A1BA9591D85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F864168-A7E5-4A2A-B7F4-4A87F4F69572}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F864168-A7E5-4A2A-B7F4-4A87F4F69572}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F864168-A7E5-4A2A-B7F4-4A87F4F69572}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F864168-A7E5-4A2A-B7F4-4A87F4F69572}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
