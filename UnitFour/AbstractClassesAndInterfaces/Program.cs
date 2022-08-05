@@ -3,7 +3,6 @@
 var taurus = new Sedan("Ford", "Taurus", 5);
 
 var suburban = new SUV("Chevrolet", "Suburban", 7);
-var pilot = new SUV("Honda", "Pilot", 7);
 
 var odyssey = new Minivan("Honda", "Odyssey", 8);
 
