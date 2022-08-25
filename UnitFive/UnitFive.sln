@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32516.85
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileIO", "FileIO\FileIO.csproj", "{C2CD60DD-9C63-4F6C-87CE-C2989D9E44FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileIO", "FileIO\FileIO.csproj", "{C2CD60DD-9C63-4F6C-87CE-C2989D9E44FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringManipulatorTdd", "StringManipulatorTdd\StringManipulatorTdd.csproj", "{F6BE7F78-11D5-4637-A734-6402FCEAF123}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringManipulatorTddTests", "StringManipulatorTddTests\StringManipulatorTddTests.csproj", "{080D1034-88E6-43F1-9C83-1E3DDAD6449D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{C2CD60DD-9C63-4F6C-87CE-C2989D9E44FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2CD60DD-9C63-4F6C-87CE-C2989D9E44FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2CD60DD-9C63-4F6C-87CE-C2989D9E44FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6BE7F78-11D5-4637-A734-6402FCEAF123}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6BE7F78-11D5-4637-A734-6402FCEAF123}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6BE7F78-11D5-4637-A734-6402FCEAF123}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6BE7F78-11D5-4637-A734-6402FCEAF123}.Release|Any CPU.Build.0 = Release|Any CPU
+		{080D1034-88E6-43F1-9C83-1E3DDAD6449D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{080D1034-88E6-43F1-9C83-1E3DDAD6449D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{080D1034-88E6-43F1-9C83-1E3DDAD6449D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{080D1034-88E6-43F1-9C83-1E3DDAD6449D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
