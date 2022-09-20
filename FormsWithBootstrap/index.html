@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms With Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous"/>
+    
+</head>
+<body>
+    <h1 class="text-center p-3">Forms with Bootstrap</h1>
+    <div class="form-group bg-info bg-opacity-50" >    
+        <form action="some/url" method="post">
+        <h3>Survey</h3>
+        <label for="form-first-name">First Name:</label>
+        <input type="text" name="FirstName" placeholder="Enter First Name" id="form-first-name">
+        <label for="form-last-name">Last Name:</label>
+        <input type="text" name="LastName" placeholder="Enter Last Name" id="form-last-name" required>
+        <label for="form-email">Last Name:</label>
+        <input type="text" name="Email" placeholder="Enter Email" id="form-email" required>
+        <div>
+            <p>Do you like puppies?</p>
+            <input type="radio" name="PuppyPreference" id="form-puppies-yes" value="yes" required class="form-check-input">
+            <label for="form-puppies-yes" class="form-check-label">Yes</label>
+            <input type="radio" name="PuppyPreference" id="form-puppies-no" value="no" required required class="form-check-input">
+            <label for="form-puppies-no" class="form-check-label">No</label>
+            <input type="radio" name="PuppyPreference" id="form-puppies-undecided" value="undecided" required required class="form-check-input">
+            <label for="form-puppies-undecided" class="form-check-label">Undecided</label>
+        </div>
+        <div>
+        <button type="submit">Submit</button>
+        </div>
+    </form> </div>
+
+    <!-- inputs: First Name, Last Name, Email, multiple-choice question -->
+</body>
+</html>
